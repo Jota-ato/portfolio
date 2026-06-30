@@ -62,8 +62,10 @@ export default function Home() {
           <h2 className="text-lg font-medium text-indigo-600 dark:text-indigo-500">
             Full Stack Web Developer
           </h2>
-          <p className="max-w-md text-base leading-relaxed text-zinc-500 dark:text-zinc-400">
-            Want to take your projects to the next level? I can help you build scalable and efficient web applications that meet your business needs.
+          <p className="text-base leading-relaxed text-zinc-500 dark:text-zinc-400 max-w-md">
+            Want to take your projects to the next level?
+            <br />
+            I can help you build scalable and efficient web applications that <span className="font-bold text-white">meet your business needs</span>.
           </p>
         </div>
 
