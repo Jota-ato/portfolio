@@ -3,6 +3,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { Mail, ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 
 const links = [
   {
@@ -79,7 +80,16 @@ export default function Home() {
               </li>
             ))}
           </ul>
+
         </nav>
+        <Link
+          href="https://portfolio-gamma-two-96.vercel.app"
+          className="text-sm text-zinc-500 dark:text-zinc-400"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          You can see the progress <span className="text-indigo-500 dark:text-indigo-400">here</span>.
+        </Link>
       </main>
     </div>
   );
