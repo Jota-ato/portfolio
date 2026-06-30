@@ -36,17 +36,14 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center bg-zinc-50 px-6 font-sans dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50">
       {/* Quick Single Page Navigation */}
-      <header className="sticky top-0 z-50 flex w-full max-w-xl items-center justify-between py-6 backdrop-blur-md bg-zinc-50/70 dark:bg-zinc-950/70">
-        <span className="text-sm font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
-          JCZB
-        </span>
+      <header className="sticky top-0 z-50 flex w-full max-w-4xl items-center justify-end py-6 backdrop-blur-md bg-zinc-50/70 dark:bg-zinc-950/70">
         <nav aria-label="Main navigation">
           <ul className="flex gap-5 text-xs font-medium text-zinc-500 dark:text-zinc-400">
             {navItems.map((item) => (
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className="transition-colors hover:text-indigo-500 dark:hover:text-indigo-400"
+                  className="transition-colors hover:text-indigo-600 dark:hover:text-indigo-500"
                 >
                   {item.label}
                 </a>
@@ -57,16 +54,16 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <main className="flex w-full max-w-xl flex-col items-start gap-10 py-16 sm:py-24">
+      <main className="flex w-full max-w-4xl flex-col items-start gap-10 py-16 sm:py-24">
         <div className="flex flex-col gap-4">
           <h1 className="text-3xl font-semibold tracking-tight text-zinc-900 sm:text-4xl dark:text-zinc-50">
             Julio César Zavala Blanco
           </h1>
-          <h2 className="text-lg font-medium text-indigo-600 dark:text-indigo-400">
+          <h2 className="text-lg font-medium text-indigo-600 dark:text-indigo-500">
             Full Stack Web Developer
           </h2>
           <p className="max-w-md text-base leading-relaxed text-zinc-500 dark:text-zinc-400">
-            I am a 16-year-old developer specializing in building clean, functional web applications. Driven by continuous self-education, I constantly explore new architectural solutions and modern technologies to expand my skillset.
+            Want to take your projects to the next level? I can help you build scalable and efficient web applications that meet your business needs.
           </p>
         </div>
 
@@ -87,7 +84,7 @@ export default function Home() {
                   >
                     <span className="flex items-center gap-3">
                       <Icon
-                        className="h-4 w-4 shrink-0 text-zinc-400 transition-colors group-hover:text-indigo-500 dark:text-zinc-500"
+                        className="h-4 w-4 shrink-0 text-zinc-400 transition-colors group-hover:text-indigo-600 dark:text-zinc-500"
                         aria-hidden="true"
                       />
                       <span className="flex flex-col">
@@ -100,7 +97,7 @@ export default function Home() {
                       </span>
                     </span>
                     <ArrowUpRight
-                      className="h-4 w-4 shrink-0 text-zinc-300 transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-indigo-500 dark:text-zinc-700"
+                      className="h-4 w-4 shrink-0 text-zinc-300 transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-indigo-600 dark:text-zinc-700"
                       aria-hidden="true"
                     />
                   </a>
