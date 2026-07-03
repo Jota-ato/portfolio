@@ -3,6 +3,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { Mail, ArrowUpRight } from "lucide-react";
+import { ThemeToggle } from "@/shared/components/ui/theme-toggle";
 
 const links = [
   {
@@ -38,7 +39,7 @@ export default function Home() {
       {/* Quick Single Page Navigation */}
       <header className="sticky top-0 z-50 flex w-full max-w-4xl items-center justify-end py-6 backdrop-blur-md bg-zinc-50/70 dark:bg-zinc-950/70">
         <nav aria-label="Main navigation">
-          <ul className="flex gap-5 text-xs font-medium text-zinc-500 dark:text-zinc-400">
+          <ul className="flex items-center gap-5 text-xs font-medium text-zinc-500 dark:text-zinc-400">
             {navItems.map((item) => (
               <li key={item.label}>
                 <a
@@ -49,6 +50,9 @@ export default function Home() {
                 </a>
               </li>
             ))}
+            <li>
+              <ThemeToggle />
+            </li>
           </ul>
         </nav>
       </header>
