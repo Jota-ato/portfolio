@@ -2,7 +2,7 @@ import { Heading } from "@/shared/typography/heading";
 
 export function Hero() {
     return (
-        <main className="flex flex-col gap-4 my-8 md:my-12">
+        <main className="flex flex-col gap-4 my-4 md:my-8">
             <Heading>
                 Julio César Zavala Blanco
             </Heading>

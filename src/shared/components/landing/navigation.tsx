@@ -26,7 +26,6 @@ export function Navigation() {
                     </Link>
                 </Button>
             ))}
-            <ThemeToggle />
         </nav>
     )
 }
