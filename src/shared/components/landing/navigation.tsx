@@ -11,7 +11,7 @@ const navItems = [
 
 export function Navigation() {
     return (
-        <nav aria-label="Main navigation" className="flex items-center justify-end w-full p-4 ">
+        <nav aria-label="Main navigation" className="flex items-center justify-end w-full p-4">
             {navItems.map((item) => (
                 <Button
                     key={item.label}
@@ -26,6 +26,7 @@ export function Navigation() {
                     </Link>
                 </Button>
             ))}
+            <ThemeToggle />
         </nav>
     )
 }
