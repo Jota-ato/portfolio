@@ -13,7 +13,7 @@ const navItems = [
 
 export function Navigation() {
     return (
-        <div className="flex items-center">
+        <div className="flex items-center gap-4">
             <ThemeToggle />
             <DesktopNavigation />
             <MobileNavigation />
@@ -24,11 +24,12 @@ export function Navigation() {
 
 function DesktopNavigation() {
     return (
-        <nav aria-label="Main navigation" className="hidden md:flex items-center justify-end w-full">
+        <nav aria-label="Main navigation" className="hidden md:flex items-center justify-end w-full gap-4">
             {navItems.map((item) => (
                 <Button
                     key={item.label}
                     variant="ghost"
+                    className="p-0"
                     asChild
                 >
                     <Link
