@@ -1,7 +1,8 @@
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "../ui/dropdown-menu";
+import { MenuIcon } from "lucide-react";
 import { ThemeToggle } from "@/shared/components/ui/theme-toggle";
 import Link from "next/link";
 import { Button } from "../ui/button";
-import { Container } from "../ui/container";
 
 const navItems = [
     { label: "About", href: "#about" },
@@ -12,24 +13,55 @@ const navItems = [
 
 export function Navigation() {
     return (
-        <Container>
-            <nav aria-label="Main navigation" className="flex items-center justify-end w-full p-4">
-                {navItems.map((item) => (
-                    <Button
-                        key={item.label}
-                        variant="ghost"
-                        asChild
+        <div className="flex items-center">
+            <ThemeToggle />
+            <DesktopNavigation />
+            <MobileNavigation />
+        </div>
+    )
+}
+
+
+function DesktopNavigation() {
+    return (
+        <nav aria-label="Main navigation" className="hidden md:flex items-center justify-end w-full">
+            {navItems.map((item) => (
+                <Button
+                    key={item.label}
+                    variant="ghost"
+                    asChild
+                >
+                    <Link
+                        href={item.href}
+                        className="transition-colors hover:text-primary text-xs text-foreground/80"
                     >
-                        <Link
-                            href={item.href}
-                            className="transition-colors hover:text-primary text-xs text-foreground/80"
-                        >
-                            {item.label}
-                        </Link>
+                        {item.label}
+                    </Link>
+                </Button>
+            ))}
+        </nav>
+    )
+}
+
+function MobileNavigation() {
+    return (
+        <nav>
+            <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                    <Button variant="ghost" size="icon" className="md:hidden">
+                        <MenuIcon />
                     </Button>
-                ))}
-                <ThemeToggle />
-            </nav>
-        </Container>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                    {navItems.map((item) => (
+                        <DropdownMenuItem asChild key={item.label}>
+                            <Link href={item.href}>
+                                {item.label}
+                            </Link>
+                        </DropdownMenuItem>
+                    ))}
+                </DropdownMenuContent>
+            </DropdownMenu>
+        </nav>
     )
 }
