@@ -12,9 +12,9 @@ export function Heading({ children, level = 1, className }: Props) {
     const Tag: ElementType = `h${level}`
 
     const sizeMap: Record<number, string> = {
-        1: 'text-4xl sm:text-5xl',
-        2: 'text-3xl sm:text-4xl',
-        3: 'text-2xl sm:text-3xl',
+        1: 'text-3xl sm:text-4xl',
+        2: 'text-2xl sm:text-3xl',
+        3: 'text-xl sm:text-2xl',
         4: 'text-lg sm:text-xl',
         5: 'text-md sm:text-lg',
         6: 'text-sm sm:text-md',

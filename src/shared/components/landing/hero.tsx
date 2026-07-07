@@ -10,10 +10,10 @@ export function Hero() {
                     <Heading className="text-center">
                         Custom Software & Automation for SMBs
                     </Heading>
-                    <Heading level={2} className="text-lg font-bold text-primary text-center">
+                    <Heading level={2} className="font-bold text-primary text-center">
                         Julio Zavala - Full Stack Developer
                     </Heading>
-                    <p className="max-w-2xl text-lg text-foreground/80 mx-auto">
+                    <p className="max-w-2xl text-md md:text-lg text-foreground/80 mx-auto">
                         I build high-performance web systems, boost your productivity, and streamline your operations.
                         <span className="text-foreground"> Zero generic templates. Just tailored software engineered to optimize your operations.</span>
                     </p>
