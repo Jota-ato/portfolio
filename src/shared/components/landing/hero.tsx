@@ -10,7 +10,7 @@ export function Hero() {
                     <Heading className="text-center">
                         Custom Software & Automation for SMBs
                     </Heading>
-                    <Heading level={3} className="text-lg font-bold text-primary text-center">
+                    <Heading level={2} className="text-lg font-bold text-primary text-center">
                         Julio Zavala - Full Stack Developer
                     </Heading>
                     <p className="max-w-2xl text-lg text-foreground/80 mx-auto">

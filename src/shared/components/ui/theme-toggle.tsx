@@ -17,6 +17,7 @@ export function ThemeToggle() {
   return (
     <div className="flex items-center gap-2 px-4">
       <Switch
+        aria-label="Toggle theme"
         id="theme-toggle"
         checked={resolvedTheme === "dark"}
         onCheckedChange={(checked) => setTheme(checked ? "dark" : "light")}
