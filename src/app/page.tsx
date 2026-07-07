@@ -5,6 +5,7 @@ import {
 import { Mail, ArrowUpRight } from "lucide-react";
 import { Hero } from "@/shared/components/landing/hero";
 import { ProjectsSection } from "@/shared/components/landing/projects";
+import { AboutBento } from "@/shared/components/landing/about-bento";
 
 const links = [
   {
@@ -32,6 +33,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
+      <AboutBento />
       <ProjectsSection />
     </div>
   );
