@@ -1,6 +1,9 @@
 import { Heading } from "@/shared/typography/heading";
 import Image from "next/image";
 import { Container } from "../ui/container";
+import { Button } from "../ui/button";
+import { ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 
 export function Hero() {
     return (
@@ -17,6 +20,19 @@ export function Hero() {
                         I build high-performance web systems, boost your productivity, and streamline your operations.
                         <span className="text-foreground"> Zero generic templates. Just tailored software engineered to optimize your operations.</span>
                     </p>
+                    <Button
+                        size="lg"
+                        className="mx-auto flex items-center"
+                    >
+                        <a
+                            className="flex items-center "
+                            href="mailto:juliozavala@julio-zavala.me"
+                            target="_blank"
+                        >
+                            Contact me
+                            <ArrowUpRight className="size-4" />
+                        </a>
+                    </Button>
                 </div>
             </main>
         </Container>
