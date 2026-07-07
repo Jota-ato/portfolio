@@ -4,6 +4,7 @@ import {
 } from "react-icons/fa";
 import { Mail, ArrowUpRight } from "lucide-react";
 import { Hero } from "@/shared/components/landing/hero";
+import { ProjectsSection } from "@/shared/components/landing/projects";
 
 const links = [
   {
@@ -31,7 +32,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
-
+      <ProjectsSection />
     </div>
   );
 }
