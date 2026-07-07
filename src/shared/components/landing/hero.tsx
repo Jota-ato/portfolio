@@ -11,12 +11,12 @@ export function Hero() {
                 <p className="text-lg font-bold text-primary">
                     Custom Software & Automation for SMBs
                 </p>
-                <p className="max-w-sm text-foreground/80">
+                <p className="max-w-md text-foreground/80">
                     I build high-performance web systems, internal dashboards, and custom automations that help local businesses save time and protect their margins.
                     <span className="text-foreground"> Zero generic templates. Just tailored software engineered to optimize your operations.</span>
                 </p>
             </div>
-            <div>
+            <div className="flex items-center justify-left">
                 <Image 
                     src={"/img/me.jpeg"}
                     alt="Image of Julio César Zavala Blanco"
