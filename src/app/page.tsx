@@ -3,9 +3,9 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { Mail, ArrowUpRight } from "lucide-react";
-import { Hero } from "@/shared/components/landing/hero";
-import { ProjectsSection } from "@/shared/components/landing/projects";
-import { AboutBento } from "@/shared/components/landing/about-bento";
+import { Hero } from "@/features/landing/components/landing/hero";
+import { ProjectsSection } from "@/features/landing/components/landing/projects";
+import { AboutBento } from "@/features/landing/components/landing/about-bento";
 
 const links = [
   {
