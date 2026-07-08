@@ -1,6 +1,7 @@
 
 export type XAxis = "left" | "center" | "right"
 export type YAxis = "top" | "center" | "bottom"
+type ImagePosition = "center" | "top" | "bottom" | "left" | "right" | "top-left" | "top-right" | "bottom-left" | "bottom-right"
 
 export type BentoElementProps = {
     title: string
@@ -9,4 +10,5 @@ export type BentoElementProps = {
     className?: string
     xAxis?: XAxis
     yAxis?: YAxis
+    imagePosition?: ImagePosition
 }

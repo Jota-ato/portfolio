@@ -9,7 +9,8 @@ const bentoElements: BentoElementProps[] = [
         className: "md:col-span-2 row-span-2 bg-secondary",
         image: "/img/bento-1.jpg",
         xAxis: "left",
-        yAxis: "bottom"
+        yAxis: "bottom",
+        imagePosition: "left"
     },
     {
         title: "Modern & Stable Infrastructure",
@@ -20,7 +21,7 @@ const bentoElements: BentoElementProps[] = [
     {
         title: "US & Canada Time Zone Aligned",
         image: "/img/bento-3.jpg",
-        yAxis: "top"
+        yAxis: "bottom",
     },
     {
         title: "Workflow Automation",

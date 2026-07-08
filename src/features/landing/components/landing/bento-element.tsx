@@ -9,7 +9,8 @@ export function BentoElement({
     image,
     className,
     xAxis = "center",
-    yAxis = "center"
+    yAxis = "center",
+    imagePosition = "center"
 }: BentoElementProps
 ) {
     return (
@@ -23,7 +24,18 @@ export function BentoElement({
                 width={400}
                 height={400}
                 loading="lazy"
-                className="size-full object-cover"
+                className={cn(
+                    "size-full object-cover",
+                    imagePosition === "top" && "object-top",
+                    imagePosition === "bottom" && "object-bottom",
+                    imagePosition === "left" && "object-left",
+                    imagePosition === "right" && "object-right",
+                    imagePosition === "top-left" && "object-top-left",
+                    imagePosition === "top-right" && "object-top-right",
+                    imagePosition === "bottom-left" && "object-bottom-left",
+                    imagePosition === "bottom-right" && "object-bottom-right",
+                    imagePosition === "center" && "object-center"
+                )}
             />
             <div className={cn(
                 "absolute top-0 left-0 flex flex-col size-full bg-black/60 z-10 p-8 items-center justify-center",
