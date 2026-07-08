@@ -31,9 +31,9 @@ export function BentoElement({
                 yAxis === "top" && "justify-start",
                 yAxis === "bottom" && "justify-end"
             )}>
-                <Heading level={3} className="text-foreground text-lg!">{title}</Heading>
+                <Heading level={3} className="dark:text-foreground text-lg!">{title}</Heading>
                 {description && (
-                    <p className="text-foreground/80 text-xs md:text-sm mt-2">{description}</p>
+                    <p className="dark:text-foreground/80 text-xs md:text-sm mt-2">{description}</p>
                 )}
             </div>
         </article>

@@ -15,6 +15,7 @@ const bentoElements: BentoElementProps[] = [
         title: "Modern & Stable Infrastructure",
         className: "lg:col-span-2 bg-secondary",
         image: "/img/default-bento-image.avif",
+        xAxis: "right"
     },
     {
         title: "US & Canada Time Zone Aligned",
@@ -25,6 +26,7 @@ const bentoElements: BentoElementProps[] = [
         description: "Eliminate human error by connecting your existing business tools to automate data entry and internal scheduling.",
         className: "lg:row-span-2 row-span-2 md:row-span-1 bg-secondary",
         image: "/img/default-bento-image.avif",
+        yAxis: "top"
     },
     {
         title: "100% Ownership. Zero Monthly Software Subscriptions.",
@@ -35,6 +37,7 @@ const bentoElements: BentoElementProps[] = [
         title: "Agile Deployment (Weeks, Not Months)",
         className: "lg:col-span-2",
         image: "/img/default-bento-image.avif",
+        xAxis: "left",
     },
 ]
 
