@@ -22,6 +22,7 @@ export function BentoElement({
                 alt={`${title} image`}
                 width={400}
                 height={400}
+                loading="lazy"
                 className="size-full object-cover"
             />
             <div className={cn(
