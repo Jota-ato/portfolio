@@ -25,7 +25,7 @@ export function BentoElement({
                 className="size-full object-cover"
             />
             <div className={cn(
-                "absolute top-0 left-0 flex flex-col size-full bg-black/50 z-10 p-8 items-center justify-center",
+                "absolute top-0 left-0 flex flex-col size-full bg-black/60 z-10 p-8 items-center justify-center",
                 xAxis === "left" && "items-start",
                 xAxis === "right" && "items-end",
                 yAxis === "top" && "justify-start",
