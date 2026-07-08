@@ -22,7 +22,7 @@ export function Hero() {
                     </p>
                     <Button
                         size="lg"
-                        className="mx-auto flex items-center"
+                        className="mx-auto flex items-center text-lg"
                     >
                         <a
                             className="flex items-center "
