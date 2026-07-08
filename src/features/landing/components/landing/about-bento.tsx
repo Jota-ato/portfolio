@@ -7,14 +7,14 @@ const bentoElements: BentoElementProps[] = [
         title: "Tailored Software Solutions",
         description: "I build custom web systems, secure databases, and operational dashboards built to save your team hours of manual work.",
         className: "md:col-span-2 row-span-2 bg-secondary",
-        image: "/img/bento-1.png",
+        image: "/img/bento-1.jpg",
         xAxis: "left",
         yAxis: "bottom"
     },
     {
         title: "Modern & Stable Infrastructure",
         className: "lg:col-span-2 bg-secondary",
-        image: "/img/bento-2.png",
+        image: "/img/bento-2.jpg",
         xAxis: "right"
     },
     {

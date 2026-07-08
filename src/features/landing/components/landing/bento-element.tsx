@@ -14,7 +14,7 @@ export function BentoElement({
 ) {
     return (
         <article className={cn(
-            "relative rounded-md overflow-hidden",
+            "relative rounded-md overflow-hidden border border-border",
             className
         )}>
             <Image
