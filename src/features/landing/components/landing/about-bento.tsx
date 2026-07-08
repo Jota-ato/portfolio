@@ -15,6 +15,7 @@ const bentoElements: BentoElementProps[] = [
     {
         title: "Modern & Stable Infrastructure",
         className: "lg:col-span-2 bg-secondary",
+        imageClassName: "grayscale",
         image: "/img/bento-2.jpg",
         xAxis: "right"
     },
@@ -27,6 +28,7 @@ const bentoElements: BentoElementProps[] = [
         title: "Workflow Automation",
         description: "Eliminate human error by connecting your existing business tools to automate data entry and internal scheduling.",
         className: "lg:row-span-2 row-span-2 md:row-span-1 bg-secondary",
+        imageClassName: "grayscale",
         image: "/img/bento-4.jpg",
         yAxis: "top"
     },

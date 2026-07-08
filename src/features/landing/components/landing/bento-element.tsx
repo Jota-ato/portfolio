@@ -8,6 +8,7 @@ export function BentoElement({
     description,
     image,
     className,
+    imageClassName,
     xAxis = "center",
     yAxis = "center",
     imagePosition = "center"
@@ -34,7 +35,8 @@ export function BentoElement({
                     imagePosition === "top-right" && "object-top-right",
                     imagePosition === "bottom-left" && "object-bottom-left",
                     imagePosition === "bottom-right" && "object-bottom-right",
-                    imagePosition === "center" && "object-center"
+                    imagePosition === "center" && "object-center",
+                    imageClassName
                 )}
             />
             <div className={cn(

@@ -8,6 +8,7 @@ export type BentoElementProps = {
     description?: string
     image: string
     className?: string
+    imageClassName?: string
     xAxis?: XAxis
     yAxis?: YAxis
     imagePosition?: ImagePosition
