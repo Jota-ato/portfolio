@@ -1,9 +1,8 @@
 import { Heading } from "@/shared/typography/heading";
 import Image from "next/image";
-import { Container } from "../../../../shared/components/ui/container";
-import { Button } from "../../../../shared/components/ui/button";
+import { Container } from "@/shared/components/ui/container";
+import { Button } from "@/shared/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
-import Link from "next/link";
 
 export function Hero() {
     return (

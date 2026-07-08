@@ -1,5 +1,5 @@
 import { Container } from "@/shared/components/ui/container";
-import { BentoElementProps } from "../../types/landing.types";
+import { BentoElementProps } from "../types/landing.types";
 import { BentoElement } from "./bento-element";
 
 const bentoElements: BentoElementProps[] = [

@@ -1,4 +1,4 @@
-import { Container } from "../../../../shared/components/ui/container";
+import { Container } from "@/shared/components/ui/container";
 import { Navigation } from "./navigation";
 
 export function Header() {
