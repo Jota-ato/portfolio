@@ -30,7 +30,7 @@ export function Hero() {
                             target="_blank"
                         >
                             Contact me
-                            <ArrowUpRight className="size-4" />
+                            <ArrowUpRight className="ml-2 size-4" />
                         </a>
                     </Button>
                 </div>
