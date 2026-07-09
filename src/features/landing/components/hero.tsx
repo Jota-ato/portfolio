@@ -25,7 +25,7 @@ export function Hero() {
                         asChild
                     >
                         <a
-                            className="flex items-center "
+                            className="flex items-center w-auto"
                             href="mailto:juliozavala@julio-zavala.me"
                             target="_blank"
                         >

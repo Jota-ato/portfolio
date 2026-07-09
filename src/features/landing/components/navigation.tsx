@@ -56,7 +56,6 @@ function MobileNavigation() {
                         aria-label="Open menu"
                     >
                         <MenuIcon />
-                        <span className="sr-only">Open Menu</span>
                     </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end">
