@@ -23,7 +23,8 @@ export function Heading({ children, level = 1, className }: Props) {
     return (
         <Tag className={cn(
             "font-bold",
-            sizeMap[level], className
+            sizeMap[level],
+            className
         )}>
             {children}
         </Tag>
