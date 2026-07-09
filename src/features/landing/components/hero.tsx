@@ -21,16 +21,15 @@ export function Hero() {
                     </p>
                     <Button
                         size="lg"
-                        className="mx-auto flex items-center text-lg"
+                        className="mx-auto inline-flex items-center text-lg"
                         asChild
                     >
                         <a
-                            className="flex items-center w-auto"
                             href="mailto:juliozavala@julio-zavala.me"
                             target="_blank"
                         >
                             Contact me
-                            <ArrowUpRight className="ml-2 size-4" />
+                            <ArrowUpRight className="size-4" />
                         </a>
                     </Button>
                 </div>
