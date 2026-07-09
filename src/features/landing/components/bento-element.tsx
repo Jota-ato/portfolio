@@ -4,8 +4,6 @@ import Image from "next/image"
 import type { BentoElementProps } from "@/features/landing/types/landing.types"
 import { imagePositionDictionary } from "../constants"
 
-
-
 export function BentoElement({
     title,
     description,
@@ -33,18 +31,9 @@ export function BentoElement({
                     imagePositionDictionary[imagePosition]
                 )}
             />
+
             <div className={cn(
                 "absolute top-0 left-0 flex flex-col size-full bg-black/30 z-10 p-8 items-center justify-center",
-                xAxis === "left" && "items-start",
-                xAxis === "right" && "items-end",
-                    imagePosition === "bottom-left" && "object-bottom-left",
-                    imagePosition === "bottom-right" && "object-bottom-right",
-                    imagePosition === "center" && "object-center",
-                    imageClassName
-                )}
-            />
-            <div className={cn(
-                "absolute top-0 left-0 flex flex-col size-full bg-black/60 z-10 p-8 items-center justify-center",
                 xAxis === "left" && "items-start",
                 xAxis === "right" && "items-end",
                 yAxis === "top" && "justify-start",
