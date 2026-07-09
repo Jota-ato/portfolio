@@ -1,5 +1,5 @@
 import { Heading } from "@/shared/typography/heading";
-import { Container } from "../../../../shared/components/ui/container";
+import { Container } from "@/shared/components/ui/container";
 
 export function ProjectsSection() {
     return (

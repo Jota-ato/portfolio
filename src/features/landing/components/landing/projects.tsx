@@ -5,7 +5,7 @@ import { NextJSTag } from "@/shared/components/tags/next-js";
 import { Neon } from "@/shared/components/tags/neon";
 import { Tailwind } from "@/shared/components/tags/tailwind";
 import { Button } from "@/shared/components/ui/button";
-import { ArrowUpRight, SquareArrowRight, SquareArrowUpRight } from "lucide-react";
+import { SquareArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { BsGithub } from "react-icons/bs";
 
@@ -61,7 +61,7 @@ export function ProjectsSection() {
                             >
                                 <Link
                                     className="flex items-center gap-2"
-                                    href={"https://booking-system-flame-eight.vercel.app/"}
+                                    href={"https://github.com/Jota-ato/manita-de-gato"}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
