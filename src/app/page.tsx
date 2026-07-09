@@ -2,10 +2,10 @@ import {
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
-import { Mail, ArrowUpRight } from "lucide-react";
-import { Hero } from "@/features/landing/components/landing/hero";
+import { Mail } from "lucide-react";
 import { ProjectsSection } from "@/features/landing/components/landing/projects";
-import { AboutBento } from "@/features/landing/components/landing/about-bento";
+import { AboutBento } from "@/features/landing/components/about-bento";
+import { Hero } from "@/features/landing/components/hero";
 
 const links = [
   {

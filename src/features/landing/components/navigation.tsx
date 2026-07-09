@@ -1,8 +1,8 @@
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "../../../../shared/components/ui/dropdown-menu";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/shared/components/ui/dropdown-menu";
 import { MenuIcon } from "lucide-react";
 import { ThemeToggle } from "@/shared/components/ui/theme-toggle";
 import Link from "next/link";
-import { Button } from "../../../../shared/components/ui/button";
+import { Button } from "@/shared/components/ui/button";
 
 const navItems = [
     { label: "About", href: "#about" },
