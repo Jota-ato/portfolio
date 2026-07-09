@@ -29,7 +29,7 @@ export function BentoElement({
                 height={400}
                 loading="lazy"
                 className={cn(
-                    "size-full object-cover",
+                    "size-full object-cover grayscale",
                     imagePositionDictionary[imagePosition]
                 )}
             />
