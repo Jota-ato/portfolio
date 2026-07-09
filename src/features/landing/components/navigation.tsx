@@ -49,8 +49,14 @@ function MobileNavigation() {
         <nav>
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                    <Button variant="ghost" size="icon" className="md:hidden">
+                    <Button
+                        variant="ghost"
+                        size="icon"
+                        className="md:hidden"
+                        aria-label="Open menu"
+                    >
                         <MenuIcon />
+                        <span className="sr-only">Open Menu</span>
                     </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end">

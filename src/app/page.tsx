@@ -3,7 +3,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { Mail } from "lucide-react";
-import { ProjectsSection } from "@/features/landing/components/landing/projects";
+import { ProjectsSection } from "@/features/landing/components/projects";
 import { AboutBento } from "@/features/landing/components/about-bento";
 import { Hero } from "@/features/landing/components/hero";
 

@@ -22,6 +22,7 @@ export function Hero() {
                     <Button
                         size="lg"
                         className="mx-auto flex items-center text-lg"
+                        asChild
                     >
                         <a
                             className="flex items-center "
