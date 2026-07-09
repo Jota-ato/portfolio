@@ -2,6 +2,9 @@ import { cn } from "@/shared/lib/utils"
 import { Heading } from "@/shared/typography/heading"
 import Image from "next/image"
 import type { BentoElementProps } from "@/features/landing/types/landing.types"
+import { imagePositionDictionary } from "../constants"
+
+
 
 export function BentoElement({
     title,
@@ -27,12 +30,13 @@ export function BentoElement({
                 loading="lazy"
                 className={cn(
                     "size-full object-cover",
-                    imagePosition === "top" && "object-top",
-                    imagePosition === "bottom" && "object-bottom",
-                    imagePosition === "left" && "object-left",
-                    imagePosition === "right" && "object-right",
-                    imagePosition === "top-left" && "object-top-left",
-                    imagePosition === "top-right" && "object-top-right",
+                    imagePositionDictionary[imagePosition]
+                )}
+            />
+            <div className={cn(
+                "absolute top-0 left-0 flex flex-col size-full bg-black/30 z-10 p-8 items-center justify-center",
+                xAxis === "left" && "items-start",
+                xAxis === "right" && "items-end",
                     imagePosition === "bottom-left" && "object-bottom-left",
                     imagePosition === "bottom-right" && "object-bottom-right",
                     imagePosition === "center" && "object-center",
