@@ -68,15 +68,41 @@ export const tagsDictionary: Record<Tag, ComponentType> = {
     "tailwind": Tailwind
 }
 
-export const projects: ProjectProps[] = [{
-    title: "Manita de Gato",
-    description: "A custom booking engine and dashboard that eliminates manual scheduling conflicts. It gives business owners complete control over services and pricing with zero recurring platform fees.",
-    image: "/img/manita-de-gato.png",
-    liveUrl: "https://booking-system-flame-eight.vercel.app/",
-    githubUrl: "https://github.com/Jota-ato/manita-de-gato",
-    technologies: [
-        "nextjs",
-        "neon",
-        "tailwind"
-    ]
-}]
+export const projects: ProjectProps[] = [
+    {
+        title: "Manita de Gato",
+        description: "A custom booking engine and dashboard that eliminates manual scheduling conflicts. It gives business owners complete control over services and pricing with zero recurring platform fees.",
+        image: "/img/manita-de-gato.png",
+        liveUrl: "https://booking-system-flame-eight.vercel.app/",
+        githubUrl: "https://github.com/Jota-ato/manita-de-gato",
+        technologies: [
+            "nextjs",
+            "neon",
+            "tailwind"
+        ]
+    },
+    {
+        title: "Paar",
+        description: "A custom booking engine and dashboard that eliminates manual scheduling conflicts. It gives business owners complete control over services and pricing with zero recurring platform fees.",
+        image: "/img/manita-de-gato.png",
+        liveUrl: "https://paar-nu.vercel.app",
+        githubUrl: "https://github.com/Jota-ato/paar",
+        technologies: [
+            "nextjs",
+            "neon",
+            "tailwind"
+        ]
+    },
+    {
+        title: "Jose Maria's Gallery",
+        description: "A custom booking engine and dashboard that eliminates manual scheduling conflicts. It gives business owners complete control over services and pricing with zero recurring platform fees.",
+        image: "/img/manita-de-gato.png",
+        liveUrl: "https://julio-zavala.me",
+        githubUrl: "https://github.com/Jota-ato/paar",
+        technologies: [
+            "nextjs",
+            "neon",
+            "tailwind"
+        ]
+    },
+]
