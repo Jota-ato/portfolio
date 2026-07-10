@@ -83,8 +83,8 @@ export const projects: ProjectProps[] = [
     },
     {
         title: "Paar",
-        description: "A custom booking engine and dashboard that eliminates manual scheduling conflicts. It gives business owners complete control over services and pricing with zero recurring platform fees.",
-        image: "/img/manita-de-gato.png",
+        description: "Paar is a private space built for two — a calm, intentional app where couples can check in with each other beyond the noise of everyday messaging. No group chats. No distractions. Just you and your partner.",
+        image: "/img/paar.png",
         liveUrl: "https://paar-nu.vercel.app",
         githubUrl: "https://github.com/Jota-ato/paar",
         technologies: [
@@ -95,10 +95,10 @@ export const projects: ProjectProps[] = [
     },
     {
         title: "Jose Maria's Gallery",
-        description: "A custom booking engine and dashboard that eliminates manual scheduling conflicts. It gives business owners complete control over services and pricing with zero recurring platform fees.",
-        image: "/img/manita-de-gato.png",
-        liveUrl: "https://julio-zavala.me",
-        githubUrl: "https://github.com/Jota-ato/paar",
+        description: "A digital gallery and market for the works of Jose Maria Lopez Viveros, a Mexican painter. The gallery allows users to view and purchase his paintings online.",
+        image: "/img/galeria-chema-lopez-viveros.png",
+        liveUrl: "https://galeria-chema-lopez-viveros.vercel.app/",
+        githubUrl: "https://github.com/Jota-ato/galeria-chema-lopez-viveros",
         technologies: [
             "nextjs",
             "neon",
