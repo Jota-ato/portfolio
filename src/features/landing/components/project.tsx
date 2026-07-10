@@ -18,7 +18,7 @@ export function Project({
     imagePosition = "center",
 }: ProjectProps) {
     return (
-        <article className="flex flex-col sm:flex-row gap-4">
+        <article className="flex flex-col sm:flex-row gap-4 md:gap-12">
             <div className="rounded-md overflow-hidden" style={{ flexBasis: "50%" }}>
                 <Image
                     src={image}

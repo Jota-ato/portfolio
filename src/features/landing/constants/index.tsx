@@ -82,6 +82,18 @@ export const projects: ProjectProps[] = [
         ]
     },
     {
+        title: "Meetup clone",
+        description: "A dynamic event management and coordination platform featuring geographic data filtering, automated event scheduling, and public community directories. Engineered to handle high-volume user registration, localized search queries, and real-time attendance tracking.",
+        image: "/img/meeti.png",
+        liveUrl: "https://meeti-next-julio.vercel.app/",
+        githubUrl: "https://github.com/Jota-ato/meeti-next-julio",
+        technologies: [
+            "nextjs",
+            "neon",
+            "tailwind"
+        ]
+    },
+    {
         title: "Paar",
         description: "A real-time, ultra-secure communication application optimized for instant data synchronization. Features private, end-to-end user sessions and a minimal, high-performance interface built for rapid asset sharing and zero-latency communication.",
         image: "/img/paar.png",
