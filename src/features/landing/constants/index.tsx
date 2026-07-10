@@ -83,7 +83,7 @@ export const projects: ProjectProps[] = [
     },
     {
         title: "Paar",
-        description: "Paar is a private space built for two — a calm, intentional app where couples can check in with each other beyond the noise of everyday messaging. No group chats. No distractions. Just you and your partner.",
+        description: "A real-time, ultra-secure communication application optimized for instant data synchronization. Features private, end-to-end user sessions and a minimal, high-performance interface built for rapid asset sharing and zero-latency communication.",
         image: "/img/paar.png",
         liveUrl: "https://paar-nu.vercel.app",
         githubUrl: "https://github.com/Jota-ato/paar",
@@ -95,7 +95,7 @@ export const projects: ProjectProps[] = [
     },
     {
         title: "Jose Maria's Gallery",
-        description: "A digital gallery and market for the works of Jose Maria Lopez Viveros, a Mexican painter. The gallery allows users to view and purchase his paintings online.",
+        description: "A high-performance digital commerce platform built for high-resolution visual inventory. Optimized for lightning-fast asset loading, secure online transaction routing, and clean content management so non-technical owners can easily update stock.",
         image: "/img/galeria-chema-lopez-viveros.png",
         liveUrl: "https://galeria-chema-lopez-viveros.vercel.app/",
         githubUrl: "https://github.com/Jota-ato/galeria-chema-lopez-viveros",
